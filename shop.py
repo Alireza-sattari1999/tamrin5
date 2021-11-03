@@ -40,10 +40,10 @@ def addItem():
         
 def removeItem():
     
-    dressId=int(input("Enter the id need to be deleted : "))
+    shopId=int(input("Enter the id need to be deleted : "))
     found=False
     for d in shop1:
-        found=d["id"]==dressId
+        found=d["id"]==shopId
         if found !=True:
             temp.append(d)
             continue
