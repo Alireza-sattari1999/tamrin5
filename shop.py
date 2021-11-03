@@ -51,9 +51,9 @@ def removeItem():
             d["Available"]-=1
     print("Deleting item....")
     if len(temp)==d:
-        print(f"{dressId} not found")
+        print(f"{shopId} not found")
     else:
-        print(f"{dressId}'s one available is removed from the list")
+        print(f"{shopId}'s one available is removed from the list")
     adminDisplayMenu()
 def goods():
     Total=0
